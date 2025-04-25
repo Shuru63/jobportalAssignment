@@ -1,12 +1,75 @@
-# React + Vite
+# Frontend for Job Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the frontend codebase for a job portal application built using React.js with Vite as the bundler.
 
-Currently, two official plugins are available:
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Tech Stack](#tech-stack)
+3. [Setup Instructions](#setup-instructions)
+4. [Folder Structure](#folder-structure)
+5. [Development](#development)
+7. [Additional Notes](#additional-notes)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Introduction
 
-## Expanding the ESLint configuration
+This project aims to create a user-friendly job portal frontend that allows users to browse job listings and filter them based on location. It utilizes React.js for building dynamic user interfaces and Vite for fast development and optimized builds.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+* **Frontend Framework**: React.js with Vite
+* **Styling**: Tailwind CSS
+
+## Setup Instructions
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+```bash
+
+git clone https://github.com/Shuru63/jobportalAssignment.git
+cd frontend
+```
+
+2. **Install dependencies:**
+```bash
+npm install
+```
+
+3. **Set up environment variables:**
+   * Ensure you have the necessary environment variables set up for API endpoints or configuration specific to your development environment.
+
+4. **Start the development server:**
+```bash
+npm run dev
+```
+
+5. **Open the application:**
+   * Open your browser and go to `http://localhost:3000` to view the application.
+
+## Folder Structure
+
+```
+frontend-job-portal/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── utils/
+│   ├── App.jsx
+│   └── main.jsx
+├── .gitignore
+├── package.json
+└── README.md
+```
+
+## Development
+
+*Add development guidelines, coding standards, and contribution information here.*
+
+## Deployment
+
+*Add deployment instructions and production build details here.*
+
+## Additional Notes
+
+*Add any additional information, troubleshooting tips, or references here.*
