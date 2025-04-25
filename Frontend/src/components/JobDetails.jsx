@@ -84,7 +84,7 @@ const JobDetails = ({ job }) => {
                 {job.responsibilities.map((item, index) => (
                   <li key={index}>{item}</li>
                 ))}
-              </ul>
+              </ul> 
             </>
           )}
         </div>
